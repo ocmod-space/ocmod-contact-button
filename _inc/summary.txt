@@ -1,0 +1,6 @@
+@name     <insertvar>MODNAME</insertvar>
+@author   <insertvar>AUTHOR</insertvar>, <insertvar>EMAIL</insertvar>
+@version  <insertvar>MODVERS</insertvar>
+@link     <insertvar>MODLINK</insertvar>
+@link     <insertvar>GITLINK</insertvar>
+@licence  <insertvar>LICLINK</insertvar>
