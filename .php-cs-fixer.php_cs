@@ -101,7 +101,7 @@ return $config
 		// Renames PHPDoc tags.
 		'general_phpdoc_tag_rename' => array('replacements' => array('inheritDocs' => 'inheritDoc')),
 		// Convert `heredoc` to `nowdoc` where possible.
-		'heredoc_to_nowdoc' => true,
+		'heredoc_to_nowdoc' => false,
 		// Include/Require and file path should be divided with a single space. File path should not be placed under brackets.
 		'include' => true,
 		// Pre- or post-increment and decrement operators should be used if possible.
