@@ -1,3 +1,7 @@
-.fclignore
-*.code-workspace
-hideg.pwd
+_inc
+pic
+src
+zip
+*.bb
+*.pwd
+pakdef.php

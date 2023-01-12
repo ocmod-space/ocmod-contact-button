@@ -1,6 +1,6 @@
 <?php
 
-// OEM internal constants
+// internal constants
 
 define('FCLDIR', '_fcl');
 define('FCLIGNORE', '.fclignore'); // ignorelist for fcl
