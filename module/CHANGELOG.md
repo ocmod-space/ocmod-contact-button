@@ -1,5 +1,13 @@
 # Change log
 
+## [1.2.2] - 2023-06-22:
+### Internal
+- Minor corrections.
+
+## [1.2.1] - 2023-03-21:
+### Changed
+- Minor style change.
+
 ## [1.2.0] - 2022-02-23:
 ### Fixed
 - Minor bugs fixed.
