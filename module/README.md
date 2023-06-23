@@ -1,21 +1,21 @@
 # Contact Button
 
 ## Description
-**Contact Button** is an OpenCart extension that allows to display buttons to quick dial, contact via email, Telegram, Viber, WhatsApp.
+**Contact Button** is an OpenCart extension that adds floating button for quick access to dialing, communication by e-mail, Telegram, Viber, WhatsApp.  
 Compatible with OpenCart 3.x.
 
 ## Features
-* Buttons to open a dialer or write an email.
-* Buttons to open Telegram, Viber or WhatsApp applications.
-* Works with all themes and templates.
-* Does not modify system files.
+* Quick contact via phone dialer, email, Telegram, Viber or WhatsApp.
+* Theme-dependless.
+* Does not modify system files (OCMOD).
 
 ## Live demo
-[Admin](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/module/contact_button)  
-[Front](http://ocmod.freevar.com/oc3020/a)  
+Contact Button [settings](https://demo.ocmod.space/a/admin/index.php?route=extension/module/contact_button).  
+Contact Button in [action](https://demo.ocmod.space/a).  
 
 ## License
-[End-User License Agreement](https://raw.githubusercontent.com/ocmod-space/ocmod-contact-button/main/EULA.txt)
+[End-User License Agreement](https://raw.githubusercontent.com/ocmod-space/ocmod-contact-button/main/EULA.txt).  
 
-## Download
-[OpenCart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=43102)
+## Links
+[OpenCart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=43102).  
+[Contact Button](https://www.ocmod.space/contact-button/) blog page.  
