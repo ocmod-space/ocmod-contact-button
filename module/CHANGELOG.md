@@ -1,8 +1,10 @@
 # Change log
 
-## [1.2.3] - 2023-07-20:
+## [1.2.3] - 2023-07-21:
 ### Fixed
 - Event uninstaller.
+### Internal
+- Code improvement.
 
 ## [1.2.2] - 2023-06-22:
 ### Internal
