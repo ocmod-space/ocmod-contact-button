@@ -1,7 +1,7 @@
 # Contact Button
 
 ## Description
-**Contact Button** is an OpenCart extension that adds floating button for quick access to dialing, communication by e-mail, Telegram, Viber, WhatsApp.  
+**Contact Button** is an OpenCart extension that allows customers to contact the store staff by few clicks.  
 Compatible with OpenCart 3.x.
 
 [![Video](https://img.youtube.com/vi/w_w-EBnvzAE/0.jpg)](https://www.youtube.com/watch?v=w_w-EBnvzAE)
@@ -13,7 +13,7 @@ Compatible with OpenCart 3.x.
 * Does not modify system files (OCMOD).
 
 ## Live demo
-* Contact Button [settings](https://demo.ocmod.space/a/admin/index.php?route=extension/module/contact_button).
+* Module settings [settings](https://demo.ocmod.space/a/admin/index.php?route=extension/module/contact_button).
 * Contact Button in [action](https://demo.ocmod.space/a).
 
 ## License
