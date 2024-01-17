@@ -7,8 +7,9 @@ Compatible with OpenCart 3.x.
 [![Video](https://img.youtube.com/vi/w_w-EBnvzAE/0.jpg)](https://www.youtube.com/watch?v=w_w-EBnvzAE)
 
 ## Features
-* Quick contact via phone dialer, email, Telegram, Viber or WhatsApp.
-* Theme-dependless.
+* Quick buttons for phone dialer, email, Telegram, Viber and WhatsApp.
+* Does not depend on template used.
+* Powered by OC Events System.
 * Does not modify system files (OCMOD).
 
 ## Live demo

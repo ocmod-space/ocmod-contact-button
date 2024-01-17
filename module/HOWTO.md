@@ -25,9 +25,3 @@ REMEMBER! YOU ARE FULLY RESPONSIBLE FOR ANY DAMAGE TO YOUR STORE FILES OR LOSS O
 
 ## Configure
 * Extensions → Extensions → Modules → #ocmod.space: contact-button → [Edit]
-
-## Style change
-* Styles locate in file "upload/catalog/view/theme/default/stylesheet/contact_button.css"
-* To change button color change the value on line 11
-* To change bottom padding change the value on line 2
-* To change right padding change the value on line 6
