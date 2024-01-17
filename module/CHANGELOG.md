@@ -1,5 +1,14 @@
 # Change log
 
+## [1.3.0] - 2024-01-17:
+### Added
+- CSS editor in the module settings.
+### Changed
+- Module admin internals.
+- JS/CSS loading.
+- Reduced button images.
+- Moved 1-on-1 chat feature to the main module and number-to-number feature to addon.
+
 ## [1.2.3] - 2023-07-21:
 ### Fixed
 - Event uninstaller.
