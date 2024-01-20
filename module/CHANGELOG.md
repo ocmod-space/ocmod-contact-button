@@ -1,5 +1,9 @@
 # Change log
 
+## [1.3.1] - 2024-01-20:
+### Fixed
+- Trim viber phone number.
+
 ## [1.3.0] - 2024-01-17:
 ### Added
 - CSS editor in the module settings.
