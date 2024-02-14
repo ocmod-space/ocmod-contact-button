@@ -1,5 +1,9 @@
 # Change log
 
+## [1.3.2] - 2024-02-14:
+### Added
+- Option `position` that specifies where the module will insert his JS script - in the header or footer. This is useful for some themes that break the ability to load JS scripts through the footer.
+
 ## [1.3.1] - 2024-01-20:
 ### Fixed
 - Trim viber phone number.
