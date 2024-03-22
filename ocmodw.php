@@ -5,6 +5,15 @@ require_once 'ocmodw.inc/ocmodw.fun.php';
 require_once 'ocmodw.inc/ocmodw.req.php';
 require_once 'ocmodw.inc/ocmodw.opt.php';
 
+define('FCLDIR', '_fcl');
+define('FCLIGNORE', '.fclignore'); // fcl ignorelist
+define('SRCDIR', 'src');
+define('ZIPDIR', 'zip');
+define('ZIPEXT', '.ocmod.zip');
+
+define('MDIR', 'module'); // module dir
+define('ADIR', 'addons'); // addons dir
+
 /*
 set_error_handler(function ($errno, $errstr, $errfile, $errline) {
     // error was suppressed with the @-operator
@@ -25,10 +34,10 @@ if (isset($clo[MAKEZIP]) && $clo[MAKEZIP] !== false) {
         $srcdir = getConcatPath($workdir, SRCDIR, $subdir);
 
         if (!is_dir($srcdir)) {
-            output('There is no such directory "' . $srcdir . '"', true);
+            output('There is no such source directory "' . $srcdir . '"', true);
         }
 
-        $zipdir = getConcatPath($workdir, ZIPDIR);
+        $zipdir = getConcatPath($workdir, ZIPDIR, $subdir);
 
         if (strpos($workdir, ADIR) === 0) {
             $part = explode(DIRECTORY_SEPARATOR, $workdir);
@@ -39,7 +48,7 @@ if (isset($clo[MAKEZIP]) && $clo[MAKEZIP] !== false) {
 
         define('MODFILE', $basename);
 
-        $zipfile = getConcatPath($zipdir, MODFILE . ($subdir ? '-oc' . $subdir : '') . ZIPEXT);
+        $zipfile = str_replace('-', '_', getConcatPath($zipdir, MODFILE . ZIPEXT));
 
         $mod_code = str_replace('--', '|', $basename);
 
