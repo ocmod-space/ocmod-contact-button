@@ -24,9 +24,9 @@ function get_clo() {
 			$options[WORKDIR] ??= '';
 		}
 
-		//if ($options[WORKDIR] && !in_array($options[WORKDIR], ['2x', '3x', '4x', 'old'])) {
+		// if ($options[WORKDIR] && !in_array($options[WORKDIR], ['2x', '3x', '4x', 'old'])) {
 		//   output('Allowed sub-directory values are: "2x", "3x", "4x", "old"!', true);
-		//}
+		// }
 
 		$clo[WORKDIR] = $options[WORKDIR] ?? '';
 	} elseif (isset($options[GETHELP])) {
@@ -158,17 +158,31 @@ function replacer($file, $to_replace = []) {
 	if ($pointer = fopen($file, 'r')) {
 		while (!feof($pointer)) {
 			$line = fgets($pointer);
+
 			if (!$line) break;
 
 			if ($line && strpos($line, '<insertfile>') !== false) {
 				$ifile = getSubstrBetween($line, '<insertfile>', '</insertfile>');
 
-				if (empty($ifile) || !is_file($ifile)) {
+				if (!is_file($ifile) || empty($ifile)) {
 					output('in "' . $file . '". Check placeholder file "' . $ifile . '"', true);
 				}
 
-				$ifile = preg_replace('/[^a-z0-9]+$/i', '', $ifile);
-				$line = file_get_contents($ifile);
+				$search = '<insertfile>' . $ifile . '</insertfile>';
+				$replace = trim(file_get_contents($ifile));
+				$line = str_replace($search, $replace, $line);
+			}
+
+			if ($line && strpos($line, '<insertfile base64>') !== false) {
+				$ifile = getSubstrBetween($line, '<insertfile base64>', '</insertfile>');
+
+				if (!is_file($ifile) || empty($ifile)) {
+					output('in "' . $file . '". Check placeholder file "' . $ifile . '"', true);
+				}
+
+				$search = '<insertfile base64>' . $ifile . '</insertfile>';
+				$replace = base64_encode(trim(file_get_contents($ifile)));
+				$line = str_replace($search, $replace, $line);
 			}
 
 			while (strpos($line, '<insertvar>') !== false) {
