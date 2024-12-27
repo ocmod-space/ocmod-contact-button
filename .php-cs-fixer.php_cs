@@ -8,11 +8,11 @@
 
 $config = new PhpCsFixer\Config();
 
-return $config
-	->setIndent("\t")
-	->setLineEnding("\n")
-	->setRiskyAllowed(true)
-	->setRules([
+return $config->
+	setIndent("\t")->
+	setLineEnding("\n")->
+	setRiskyAllowed(true)->
+	setRules([
 		'@PSR2'                                         => true,
 		'@Symfony'                                      => false,
 		'@DoctrineAnnotation'                           => true,
@@ -22,7 +22,7 @@ return $config
 		'align_multiline_comment'                       => true,
 		'array_indentation'                             => true,
 		'array_syntax'                                  => ['syntax' => 'short'],
-		'assign_null_coalescing_to_coalesce_equal'      => true,
+		'assign_null_coalescing_to_coalesce_equal'      => false,
 		'attribute_empty_parentheses'                   => true,
 		'backtick_to_shell_exec'                        => true,
 		'binary_operator_spaces'                        => [
@@ -106,7 +106,7 @@ return $config
 		'multiline_comment_opening_closing'             => true,
 		'multiline_whitespace_before_semicolons'        => ['strategy' => 'new_line_for_chained_calls'],
 		'native_function_casing'                        => true,
-		'native_type_declaration_casing'                => true,
+		'native_function_type_declaration_casing'       => true,
 		'new_with_braces'                               => true,
 		'no_alias_language_construct_call'              => true,
 		'no_alternative_syntax'                         => true,
@@ -160,7 +160,10 @@ return $config
 		'normalize_index_brace'                         => true,
 		'not_operator_with_space'                       => false,
 		'object_operator_without_whitespace'            => true,
-		'operator_linebreak'                            => ['only_booleans' => true],
+		'operator_linebreak'                            => [
+			'only_booleans' => true,
+			'position'      => 'end',
+		],
 		'ordered_imports'                               => true,
 		'php_unit_fqcn_annotation'                      => true,
 		'php_unit_internal_class'                       => true,
@@ -202,9 +205,7 @@ return $config
 		'single_class_element_per_statement'            => true,
 		'single_import_per_statement'                   => true,
 		'single_line_after_imports'                     => true,
-		'single_line_comment_style'                     => [],
 		'single_line_throw'                             => true,
-
 		'single_quote'                                  => false,
 		'single_space_after_construct'                  => true,
 		'single_trait_insert_per_statement'             => true,
@@ -223,9 +224,8 @@ return $config
 		'visibility_required'                           => true,
 		'whitespace_after_comma_in_array'               => true,
 		// */
-	])
-	->setFinder(
-		PhpCsFixer\Finder::create()
-			->in(__DIR__)
-	)
-;
+	])->
+	setFinder(
+		PhpCsFixer\Finder::create()->
+			in(__DIR__)
+	);

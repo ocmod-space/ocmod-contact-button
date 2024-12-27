@@ -1,5 +1,13 @@
 # Change log
 
+## [1.5.0] - 2024-03-22:
+### Added
+- Contact Us button.
+- Static buttons.
+- Multistore support.
+### Internal
+- Code changes and improvements.
+
 ## [1.4.0] - 2024-03-22:
 ### Added
 - Automatic recognition of Viber ID type (addon is now unnecessary).

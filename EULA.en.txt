@@ -1,0 +1,77 @@
+**End User License Agreement (EULA)**
+
+**Last Updated: 2024.12.27**
+
+
+Before using the software, please read this Agreement carefully. It
+grants you a license to use the software and contains information about
+warranties and liability limitations.
+
+**Key Terms**
+
+- "Agreement" — this End User License Agreement between You and the
+  Developer.
+- "Developer" — Andrii Burkatskyi.
+- "Web Server" — a physical or virtual machine that You own or control.
+- "Software" — the "Contact Button" extension, which integrates into the
+  OpenCart e-commerce platform.
+- "You" — the individual or organization using the Software.
+
+
+**Terms of Use**
+
+- You may install and use the Software on one Web Server if You do not
+  have additional licenses.
+- You may use the Software for commercial purposes, but You may not
+  distribute or resell it.
+
+
+**Developer Obligations**
+
+The Developer agrees to provide free bug fixes for the Software for a
+period of 12 months from the date of purchase. Bug fixes will be provided
+for critical issues that significantly impact the functionality of the
+Software (e.g., software crashes, data loss). The Developer reserves the
+right to determine what constitutes a critical issue.
+Support will be provided through the following channels:
+- Email address (see the **Contact Information** section below).
+- OpenCart support service (available for customers who purchased the
+  Software through the OpenCart Marketplace).
+
+
+**Agreement Acceptance**
+
+By installing the Software, You agree to this Agreement.
+
+
+**Prohibited Use**
+
+- Do not copy, distribute, or resell the Software.
+- Do not allow third parties to use the Software on Your behalf.
+- Do not modify the Software or attempt to combine it with other software
+  without the Developer's permission.
+- Do not install the Software on Web Servers that You do not control.
+- Do not reverse engineer, decompile, or disassemble the Software.
+- Do not use the Software or its code to create a competing product.
+
+**Termination of Agreement**
+
+- The Agreement may be terminated if You fail to comply with any of
+  its terms.
+- Upon termination of the Agreement, You must immediately delete all
+  copies of the Software from Your Web Servers.
+- The Developer reserves the right to terminate the Agreement at any
+  time without notice if it determines that You are violating the
+  terms of the Agreement.
+
+
+**Disclaimer of Warranties**
+
+THE SOFTWARE IS PROVIDED "AS IS." THE DEVELOPER SHALL NOT BE LIABLE FOR
+ANY DAMAGES OR ISSUES RELATED TO THE USE OF THE SOFTWARE.
+
+
+**Contact Information**
+
+If You have any questions, please contact the Developer:
+- By emailing: ocmod.space@gmail.com
