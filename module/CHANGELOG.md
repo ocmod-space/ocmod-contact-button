@@ -1,10 +1,13 @@
 # Change log
 
-## [1.5.0] - 2024-03-22:
+## [1.5.0] - 2025-01-20:
 ### Added
 - Contact Us button.
 - Static buttons.
 - Multistore support.
+### Fixed
+- OC 4.x compatibility.
+- OC 3.x + Journal 3.x compatibility.
 ### Internal
 - Code changes and improvements.
 
