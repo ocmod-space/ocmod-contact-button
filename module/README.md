@@ -4,7 +4,7 @@
 
 The **Contact Button** is an OpenCart extension that allows customers to contact store staff in a few clicks. It adds a floating button to speed dial, email, or chat via Telegram, Viber, or WhatsApp.
 
-Compatible with OpenCart 3.x/4.x versions.
+Compatible with OpenCart 3.x/4.x versions and PHP >= 7.x.
 
 [![Video](https://img.youtube.com/vi/QgsfgC3pSzg/0.jpg)](https://www.youtube.com/watch?v=QgsfgC3pSzg)
 
