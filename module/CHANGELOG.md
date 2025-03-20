@@ -1,5 +1,9 @@
 # Change log
 
+## [1.5.1] - 2025-03-20:
+### Fixed
+- Stylesheet link.
+
 ## [1.5.0] - 2025-01-20:
 ### Added
 - Contact Us button.
