@@ -1,5 +1,9 @@
 # Change log
 
+## [1.5.2] - 2025-04-05:
+### Internals
+- Minor code improvement.
+
 ## [1.5.1] - 2025-03-20:
 ### Fixed
 - Stylesheet link.
