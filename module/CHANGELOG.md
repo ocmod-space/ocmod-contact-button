@@ -1,5 +1,9 @@
 # Change log
 
+## [1.5.3] - 2025-04-09:
+### Fixed
+- Compatibility with 4.0.0.0-4.0.1.1.
+
 ## [1.5.2] - 2025-04-05:
 ### Internals
 - Minor code improvement.
