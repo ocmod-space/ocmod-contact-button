@@ -1,5 +1,9 @@
 # Change log
 
+## [1.5.4] - 2025-05-27:
+### Fixed
+- Handle missing `HTTP_USER_AGENT` in mobile detection
+
 ## [1.5.3] - 2025-04-09:
 ### Fixed
 - Compatibility with 4.0.0.0-4.0.1.1.
