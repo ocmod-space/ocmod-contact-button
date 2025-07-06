@@ -10,7 +10,7 @@ Compatible with OpenCart 3.x/4.x (PHP 7.x and above).
 ## Features
 - Displays quick buttons to communicate with store staff via dialer, email, Telegram, Viber, and WhatsApp.
 - Does not depend on store template/theme.
-* Does not modify system files (OCMOD).
+* No core file modifications (OCMOD).
 
 ## Restrictions
 This module does not work and is not supported for stores using the following domain extensions: `.ru`,`.рф`,`.рус`,`.by`,`.бел`,`.su`.
